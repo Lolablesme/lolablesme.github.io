@@ -6,7 +6,7 @@
 name: Mark Tan
 
 # Short bio or description (displayed in the header)
-description: Applied Economics Student
+description: Some placeholder text
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -15,17 +15,17 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Flags below are optional
 #
 
-resumefile: "/_downloadables/MSE - Mark Tan [OnTrac].pdf"
+resumefile: "/downloadables/MSE - Mark Tan [OnTrac].pdf"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: mark.tan.2025@mse.smu.edu.sg
   facebook:
   flickr:
   github: https://github.com/Lolablesme
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/ktanmark
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -80,8 +80,7 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Include these files in the production _site
-include:
-  - _downloadables
+include: []
 
 # Exclude these files from your production _site
 exclude:

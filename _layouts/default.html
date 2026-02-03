@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -27,17 +31,22 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.resumefile | relative_url }}" download="MarkTan_Resume">Resume</a>
+            <a href="{{ site.baseurl }}/">About Me</a>
+            <a href="{{ site.baseurl }}/projects">Projects</a>
+            <a href="{{ site.resumefile | relative_url }}" target="_blank" rel="noopener noreferrer">Resume</a>
           </nav>
         </header>
+
+        <hr>
+
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
+    <main>
+    <div class="container">
       {{ content }}
     </div>
+    </main>
 
     <div class="wrapper-footer">
       <div class="container">

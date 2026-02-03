@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+permalink: /
 ---
 
 Some information about you!
@@ -11,5 +11,4 @@ Some information about you!
 A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[mark.tan.2025@mse.smu.edu.sg](mailto:mark.tan.2025@mse.smu.edu.sg)

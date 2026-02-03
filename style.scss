@@ -19,8 +19,9 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $opensans;
   color: $darkGray;
+  font-weight: 400;
 }
 
 .container {
@@ -31,7 +32,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $opensans;
   color: $darkerGray;
   font-weight: bold;
 
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
     color: inherit;
   }
@@ -69,6 +70,8 @@ p {
 }
 
 a {
+  font-family: $opensans;
+  font-weight: bold;
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
@@ -151,7 +154,14 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+hr {
+  border: 0;                  /* Remove the default gray border */
+  height: 1px;                /* Set the thickness */
+  background-color: #333;   /* Set the color */
+  margin: 0px;
 }
 
 .masthead {
@@ -227,7 +237,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1px;
 
     @include mobile {
@@ -237,9 +247,11 @@ nav {
   }
 }
 
-//
-// .main
-//
+
+main {
+  min-height: 350px;
+}
+
 
 .posts > .post {
   padding-bottom: 2em;

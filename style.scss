@@ -22,6 +22,9 @@ body {
   font: 17px $opensans;
   color: $darkGray;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -30,6 +33,26 @@ body {
   padding: 0 10px;
   width: 100%;
 }
+
+main {
+  flex: 1;
+  border: 5px solid red;
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+  flex-shrink: 0;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  flex-shrink: 0;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $opensans;
@@ -248,12 +271,6 @@ nav {
   }
 }
 
-
-main {
-  min-height: 350px;
-}
-
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -282,18 +299,6 @@ main {
     text-transform: uppercase;
     font-size: 15px;
   }
-}
-
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

@@ -4,7 +4,7 @@ title: About Me
 permalink: /
 ---
 
-I am a currently student doing a Master's programme in Economics at Singapore Management University.
+I am currently a student doing a Master's programme in Economics at Singapore Management University.
 
 I was previously a software engineer working on embedded software for pick-and-place machines for semiconductor manufacturing.
 

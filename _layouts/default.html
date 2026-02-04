@@ -5,7 +5,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <!-- Tab text -->
+    <link rel="icon" type="image/png" href="{{ site.avatar }}">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -26,8 +28,10 @@
           <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name">{{ site.name }}</h1>
+            <p class="site-description">
+              <a href="mailto:{{ site.description }}" style="color: rgb(39, 87, 208)">{{ site.description }}</a>
+            </p>
           </div>
 
           <nav>

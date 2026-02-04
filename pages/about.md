@@ -4,11 +4,11 @@ title: About Me
 permalink: /
 ---
 
-Some information about you!
+I am a currently student doing a Master's programme in Economics at Singapore Management University.
 
-### More Information
+I was previously a software engineer working on embedded software for pick-and-place machines for semiconductor manufacturing.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-[mark.tan.2025@mse.smu.edu.sg](mailto:mark.tan.2025@mse.smu.edu.sg)
+## Past Education
+I did a Bachelor's in Computer Science and Game Design at DigiPen Institute of Technology Singapore. \
+\
+There, I studied Object-Oriented Programming, Algorithm Analysis, Computer Networks, Level Design, focusing mostly on C/C++ languages.

@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $opensans;
+  font: 17px $opensans;
   color: $darkGray;
   font-weight: 400;
 }
@@ -46,27 +46,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 26px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
+  margin: 15px 0 5px 0;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 a {
@@ -203,10 +204,10 @@ hr {
 .site-name {
   margin: 0;
   color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  // cursor: pointer;
+  font-family: $opensans;
+  font-weight: 700;
+  font-size: 36px;
   letter-spacing: 1px;
 }
 

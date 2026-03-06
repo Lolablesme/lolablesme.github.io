@@ -4,6 +4,12 @@ title: Projects
 permalink: /projects
 ---
 
+## Current Projects
+### 1. Singapore Public Hospitals Bed Occupancy Rate (BOR)
+A data visualization project using BeautifulSoup/Pandas/Plotly \
+[Website](https://lolablesme.github.io/bor-tracker/)
+
+
 ## Past Projects (Game Projects)
 ### 1. Red is The Enemy
 A fast-paced first person shooter game inspired by SuperHot \
